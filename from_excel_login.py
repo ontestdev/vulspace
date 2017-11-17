@@ -27,15 +27,22 @@ def account_login():
 
 
 
+if __name__ == '__main__':
+
+    table = read_data.read_excel_data('e:\\test.xlsx',u'Sheet1')
+    for i in range(table.nrows):
+        list = table.row_values(i)
+        account_login()
+        contant = '用户名：%s  密码：%s'%(list[0],list[1])
+        print(contant)
+        print('*'*20)
 
 
-table = read_data.read_excel_data('e:\\test.xlsx',u'Sheet1')
-for i in range(table.nrows):
-    list = table.row_values(i)
-    account_login()
-    contant = '用户名：%s  密码：%s'%(list[0],list[1])
-    print(contant)
-    print('*'*20)
+
+
+
+
+
 
 
 
