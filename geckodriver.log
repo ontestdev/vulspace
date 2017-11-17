@@ -1,0 +1,31 @@
+1510915193028	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1510915193107	geckodriver	INFO	Listening on 127.0.0.1:61296
+1510915195130	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.qo6FnLhirEj5"
+1510915195791	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1510915196328	Marionette	INFO	Enabled via --marionette
+[Child 20156] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20156] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510915198333	Marionette	INFO	Listening on port 61302
+1510915198423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1510915198480	Marionette	DEBUG	Register listener.js for window 6442450945
+1510915198534	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1510915198563	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1510915198564	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1510915199442	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.211.99/naas/account/"
+1510915199499	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.211.99/naas/account/#/"
+1510915199804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.211.99/naas/account/login.html"
+1510915199844	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.211.99/naas/account/login.html"
+1510915203135	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.211.99/naas/account/login.html"
+1510915203145	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.211.99/naas/account/login.html"
+1510915203146	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.211.99/naas/account/login.html"
+1510915203155	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.211.99/#/overview"
+1510915203180	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.211.99/#/overview"
+1510915206894	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 17256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21692] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 13900] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
