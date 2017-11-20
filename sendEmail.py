@@ -3,10 +3,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
-def send_eamil(title,contant):
+def send_eamil(contant):
     sender = '15952430023@163.com'
     receiver = 'zhouss@syscloud.cn'
-    subject = title
+    subject = '测试结果'
     smtpserver = 'smtp.163.com'
     username = '15952430023@163.com'
     password = 'zhouss123'
@@ -20,3 +20,4 @@ def send_eamil(title,contant):
     smtp.login(username, password)
     smtp.sendmail(sender, receiver, msg.as_string())
     smtp.quit()
+

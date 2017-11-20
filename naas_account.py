@@ -24,6 +24,11 @@ def login(user,pwd):
     print(bro.get_cookies())
     bro.delete_cookie('ssss')
     print(bro.get_cookies())
+    time.sleep(3)
+    bro.close()
+
+
+
 
 
 
